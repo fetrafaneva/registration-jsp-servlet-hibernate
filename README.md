@@ -45,24 +45,52 @@ Le projet suit l’architecture **MVC** :
 - **Vue** : Pages JSP pour l’interface utilisateur
 - **Contrôleur** : Servlets pour la gestion des requêtes HTTP
 
-registration-jsp-servlet-hibernate
-│
-├── src/
-│ ├── model/ # Entités Hibernate
-│ ├── dao/ # Accès aux données
-│ ├── servlet/ # Servlets (contrôleurs)
-│ └── util/ # Configuration Hibernate
-│
-├── WebContent/
-│ ├── register.jsp # Formulaire d'inscription
-│ ├── success.jsp # Page de succès
-│ └── WEB-INF/
-│ └── web.xml
-│
-├── hibernate.cfg.xml
-└── README.md
-
-
-
 ## 📁 Structure générale du projet
 
+      registration-jsp-servlet-hibernate
+      │
+      ├── src/
+      │ ├── model/ # Entités Hibernate
+      │ ├── dao/ # Accès aux données
+      │ ├── servlet/ # Servlets (contrôleurs)
+      │ └── util/ # Configuration Hibernate
+      │
+      ├── WebContent/
+      │ ├── register.jsp # Formulaire d'inscription
+      │ ├── success.jsp # Page de succès
+      │ └── WEB-INF/
+      │ └── web.xml
+      │
+      ├── hibernate.cfg.xml
+      └── README.md
+
+
+## ⚙️ Fonctionnalités principales
+
+- Inscription d’un utilisateur
+- Validation des données côté serveur
+- Enregistrement des utilisateurs dans la base de données
+- Redirection vers une page de confirmation
+
+## 🚀 Installation et exécution
+
+1. Cloner le projet :
+   ```bash
+   git clone https://github.com/fetrafaneva/registration-jsp-servlet-hibernate.git
+2. Importer le projet dans Eclipse ou IntelliJ IDEA
+
+3. Configurer la base de données dans :
+
+hibernate.cfg.xml
+
+4. Ajouter les librairies nécessaires :
+
+Hibernate
+
+JDBC Driver (MySQL)
+
+5. Déployer le projet sur Apache Tomcat
+
+6. Accéder à l’application :
+
+        http://localhost:8080/registration-jsp-servlet-hibernate/
