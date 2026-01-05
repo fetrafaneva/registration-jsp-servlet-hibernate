@@ -1,4 +1,4 @@
-# 📝 Registration JSP Servlet Hibernate
+# Registration JSP Servlet Hibernate
 
 ## 📌 Description du projet
 
@@ -7,7 +7,7 @@ Le projet met en œuvre les technologies **JSP**, **Servlet** et **Hibernate** e
 
 Il s’agit d’un projet pédagogique visant à illustrer l’intégration de Hibernate pour la persistance des données dans une application web Java.
 
----
+
 
 ## 🎯 Objectifs du projet
 
@@ -17,13 +17,13 @@ Il s’agit d’un projet pédagogique visant à illustrer l’intégration de H
 - Comprendre l’architecture MVC en Java Web
 - Manipuler Hibernate ORM pour les opérations CRUD de base
 
----
+
 
 ## 🧩 Thème du projet
 
 > **Développement d’une application web de gestion d’inscription des utilisateurs avec JSP, Servlet et Hibernate**
 
----
+
 
 ## 🛠 Technologies utilisées
 
@@ -35,7 +35,7 @@ Il s’agit d’un projet pédagogique visant à illustrer l’intégration de H
 - **Apache Tomcat**
 - **HTML / CSS**
 
----
+
 
 ## 🏗 Architecture du projet
 
@@ -45,7 +45,24 @@ Le projet suit l’architecture **MVC** :
 - **Vue** : Pages JSP pour l’interface utilisateur
 - **Contrôleur** : Servlets pour la gestion des requêtes HTTP
 
----
+registration-jsp-servlet-hibernate
+│
+├── src/
+│ ├── model/ # Entités Hibernate
+│ ├── dao/ # Accès aux données
+│ ├── servlet/ # Servlets (contrôleurs)
+│ └── util/ # Configuration Hibernate
+│
+├── WebContent/
+│ ├── register.jsp # Formulaire d'inscription
+│ ├── success.jsp # Page de succès
+│ └── WEB-INF/
+│ └── web.xml
+│
+├── hibernate.cfg.xml
+└── README.md
+
+
 
 ## 📁 Structure générale du projet
 
