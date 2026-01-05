@@ -81,13 +81,13 @@ Le projet suit l’architecture **MVC** :
 
 3. Configurer la base de données dans :
 
-hibernate.cfg.xml
+            hibernate.cfg.xml
 
 4. Ajouter les librairies nécessaires :
 
-Hibernate
+            Hibernate
 
-JDBC Driver (MySQL)
+            JDBC Driver (MySQL)
 
 5. Déployer le projet sur Apache Tomcat
 
